@@ -1,0 +1,46 @@
+{
+    "name": "treblle/treblle-lumen",
+    "description": "Stay in tune with your APIs",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "api",
+        "debuging",
+        "documentation",
+        "lumen",
+        "monitoring",
+        "treblle"
+    ],
+    "authors": [
+        {
+            "name": "Vedran Cindrić",
+            "email": "vedran@treblle.com",
+            "homepage": "https://treblle.com/",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://treblle.com/",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5.0 || ^7.0",
+        "illuminate/contracts": "^7.0 || ^8.0 || ^9.0",
+        "illuminate/http": "^7.0 || ^8.0 || ^9.0",
+        "illuminate/support": "^7.0 || ^8.0 || ^9.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "orchestra/testbench": "^5.0 || ^6.0 || ^7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Treblle\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
