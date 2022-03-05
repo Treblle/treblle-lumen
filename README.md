@@ -5,7 +5,7 @@
 
 [![Latest Version](https://img.shields.io/packagist/v/treblle/treblle-lumen)](https://packagist.org/packages/treblle/treblle-lumen)
 [![Total Downloads](https://img.shields.io/packagist/dt/treblle/treblle-lumen)](https://packagist.org/packages/treblle/treblle-lumen)
-[![MIT Licence](https://img.shields.io/packagist/l/treblle/treblle-lumen)](LICENSE.md)
+[![MIT Licence](https://img.shields.io/packagist/l/treblle/treblle-lumen)](LICENSE)
 
 Treblle makes it super easy to understand what’s going on with your APIs and the apps that use them. Just by adding
 Treblle to your API out of the box you get:
@@ -108,5 +108,5 @@ do our best to help you out.
 
 ## License
 
-Copyright 2021, Treblle Limited. Licensed under the MIT license:
+Copyright 2022, Treblle Limited. Licensed under the MIT license:
 http://www.opensource.org/licenses/mit-license.php
